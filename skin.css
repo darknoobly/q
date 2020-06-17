@@ -38,12 +38,18 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(png/base.png); 
-    width: 558px;
-    height: 964px;
+    background: url(svg/base.svg); 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 970px;
+    height: 424px;
+    margin-left: -485px;
+    margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(png/disconnected.png); 
+    background: url(svg/disconnected.svg); 
+    background-position: 0px -424px;
+    background-repeat: no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
